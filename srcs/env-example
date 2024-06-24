@@ -1,0 +1,24 @@
+# Nginx
+NGINX_PORT=443
+NGINX_HOST=lodemetz.42.fr
+
+# MariaDB
+DB_PORT=3301
+DB_HOST=mariadb
+DB_ROOT_PASS=MariadbPass
+
+# Wordpress DB
+WP_PORT=9000
+WP_DB_NAME=wordpress_db
+WP_DB_USER=WpDbUser
+WP_DB_PASS=WpDbPass
+
+# Wordpress
+WP_PATH=/var/www/html/wordpress/
+WP_TITLE=Inception
+WP_ADMIN_USER=WpBoss
+WP_ADMIN_PASS=WpBossPass
+WP_ADMIN_EMAIL=wpboss@email.com
+WP_USER=WpUser
+WP_USER_PASS=WpUserPass
+WP_USER_EMAIL=wpuser@email.com
